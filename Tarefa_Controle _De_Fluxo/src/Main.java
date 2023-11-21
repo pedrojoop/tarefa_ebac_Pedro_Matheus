@@ -20,7 +20,7 @@ public class Main {
 
             if (nota.getMedia() >= 7.0) {
                 System.out.println("Aluno aprovado");
-            } else if (nota.getMedia() >= 5.0 && nota.getMedia() <= 7.0) {
+            } else if (nota.getMedia() >= 5.0 && nota.getMedia() < 7.0) {
                 System.out.println("Aluno em recuperação");
             } else {
                 System.out.println("Aluno reprovado");
