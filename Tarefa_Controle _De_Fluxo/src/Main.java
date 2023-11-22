@@ -5,7 +5,7 @@ public class Main {
         public static void main(String[] args) {
             Alunos aluno = new Alunos();
             aluno.setNome("Pedro");
-            aluno.setMatricula(211001);
+            aluno.setMatricula(21101);
 
             Notas nota = new Notas();
             nota.setNota1(7);
