@@ -1,5 +1,7 @@
 import Car.Car;
 import Car.CarBrands;
+import Car.Ford;
+import Car.Honda;
 
 import java.util.Scanner;
 
@@ -9,31 +11,30 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        //Instanciar as marcas
-        CarBrands<String> ford = new CarBrands<String>("Ford");
-        CarBrands<String> honda = new CarBrands<String>("Honda");
+        // Instanciar as marcas
+        CarBrands<Ford> ford = new CarBrands<>("Ford");
+        CarBrands<Honda> honda = new CarBrands<>("Honda");
 
-        //Instanciar carros
-        Car<String> fiesta = new Car<String>("Fiesta");
-        Car<String> sedan = new Car<String>("Sedan");
-        Car<String> civic = new Car<String>("Civic");
-        Car<String> fit = new Car<String>("Fit");
+        // Instanciar carros e adicioná-los às marcas
+        Ford fiesta = new Ford("Fiesta");
+        Ford sedan = new Ford("Sedan");
+        Honda civic = new Honda("Civic");
+        Honda fit = new Honda("Fit");
 
-        //adicionar carros as marcas
-        ford.addCar(String.valueOf(fiesta));
-        ford.addCar(String.valueOf(sedan));
-        honda.addCar(String.valueOf(civic));
-        honda.addCar(String.valueOf(fit));
+        ford.addCar(fiesta);
+        ford.addCar(sedan);
+        honda.addCar(civic);
+        honda.addCar(fit);
 
         Scanner scan = new Scanner(System.in);
-        
-        //menu
+
+        // Menu
         System.out.println("Escolha uma opção: ");
         System.out.println("1 = Ford");
         System.out.println("2 = Honda");
         int option = scan.nextInt();
 
-        if(option == 1) {
+        if (option == 1) {
             System.out.println(ford);
         } else if (option == 2) {
             System.out.println(honda);

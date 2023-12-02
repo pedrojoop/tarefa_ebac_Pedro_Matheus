@@ -6,12 +6,12 @@ import java.util.List;
 /**
  * @author pmpedrolima@gmail.com
  */
-public class CarBrands<E> {
+public class CarBrands<E extends Car> {
     private String name;
     private List<E> cars;
 
-    public CarBrands(String nome) {
-        this.name = nome;
+    public CarBrands(String name) {
+        this.name = name;
         this.cars = new ArrayList<>();
     }
 
@@ -23,7 +23,7 @@ public class CarBrands<E> {
         cars.add(car);
     }
 
-    public List<E> getCar() {
+    public List<E> getCars() {
         return cars;
     }
 

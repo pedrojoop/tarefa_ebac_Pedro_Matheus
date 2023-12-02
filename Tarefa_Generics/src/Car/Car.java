@@ -3,7 +3,7 @@ package Car;
 /**
  * @author pmpedrolima@gmail.com
  */
-public class Car<E> {
+public abstract class Car {
     private String model;
 
     public Car(String model) {
