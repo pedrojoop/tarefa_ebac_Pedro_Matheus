@@ -1,12 +1,11 @@
 /**
  * @author pmpedrolima@gmail.com
  */
-
 public class Main {
     @Tabela(nome = "Table")
     public static class MinhaClasse {
-
     }
+
     public static void main(String[] args) {
         // Obtém a classe
         Class<?> classe = MinhaClasse.class;
@@ -20,6 +19,8 @@ public class Main {
             String nomeDaTabela = tabelaAnnotation.nome();
 
             System.out.println("Nome da tabela: " + nomeDaTabela);
+        } else {
+            System.out.println("A annotation Tabela não está presente na classe.");
         }
     }
 }
