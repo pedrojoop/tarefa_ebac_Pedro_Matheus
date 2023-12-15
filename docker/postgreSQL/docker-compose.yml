@@ -1,0 +1,36 @@
+version: '3'
+
+services:
+  ebac-postgres-compose:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: "pp211001"
+      POSTGRES_DB: "postgres"
+      POSTGRES_USER: "postgres"
+      LC_MESSAGES: "en_US.utf8"  # Update this line
+      LC_MONETARY: "en_US.utf8"  # Update this line
+      LC_NUMERIC: "en_US.utf8"  # Update this line
+      LC_TIME: "en_US.utf8"  # Update this line
+    ports:
+      - "15432:5432"
+    volumes:
+      - C:\Program Files\PostgreSQL\16\data:/var/lib/postgresql/data
+    networks:
+      - postgres-ebac-network
+    command: ["-c", "dynamic_shared_memory_type=posix"]
+
+  ebac-pgadmin-compose:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "pmpedrolima@gmail.com"
+      PGADMIN_DEFAULT_PASSWORD: "pp21100147"
+    ports:
+      - "16543:80"
+    depends_on:
+      - ebac-postgres-compose
+    networks:
+      - postgres-ebac-network
+
+networks: 
+  postgres-ebac-network:
+    driver: bridge
