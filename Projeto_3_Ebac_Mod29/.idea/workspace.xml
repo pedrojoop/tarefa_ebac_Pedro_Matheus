@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3e192b59-68cb-41cd-9d09-40c589f0da9b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/.idea/Projeto_2_Ebac_Mod25.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/dao/ClienteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/dao/IClienteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/dao/IProdutoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/dao/IVendaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/dao/Persistente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/dao/ProdutoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/dao/VendaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/dao/generic/GenericDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/dao/generic/IGenericDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/dao/generic/SingletonMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/domain/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/domain/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/domain/ProdutoQuantidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/domain/Venda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/exceptions/TipoChaveNaoEncontradaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/services/ClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/services/IClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/services/IProdutoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/services/ProdutoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/services/generic/GenericService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/services/generic/IGenericService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ClienteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/IClienteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ProdutosDAO/IProdutoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ProdutosDAO/ProdutoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jbdc/ConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ClienteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ProdutoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/TesteConexaoBanco.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2ZVHZbexr1h74cEDUikI0AcDKUf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.TesteConexaoBanco.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.ClienteTest.atualizarTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ClienteTest.buscarTodosTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ClienteTest.cadastrarTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pedro/Downloads/postgresql-42.7.1.jar&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/pedro/OneDrive/Documents/DESENVOLVIMENTO/EBAC/tarefas-ebac-Pedro-Matheus/Projeto_3_Ebac_Mod29/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.haulmont.jpb.dbDrivers&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.ClienteTest.atualizarTest">
+    <configuration name="TesteConexaoBanco" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.TesteConexaoBanco" />
+      <module name="Projeto_3_Ebac_Mod29" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projeto_3_Ebac_Mod29" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ClienteTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteTest.atualizarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projeto_3_Ebac_Mod29" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ClienteTest" />
+      <option name="METHOD_NAME" value="atualizarTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteTest.buscarTodosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projeto_3_Ebac_Mod29" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ClienteTest" />
+      <option name="METHOD_NAME" value="buscarTodosTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteTest.cadastrarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projeto_3_Ebac_Mod29" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ClienteTest" />
+      <option name="METHOD_NAME" value="cadastrarTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ClienteTest.atualizarTest" />
+        <item itemvalue="JUnit.ClienteTest.buscarTodosTest" />
+        <item itemvalue="JUnit.ClienteTest.cadastrarTest" />
+        <item itemvalue="JUnit.ClienteTest" />
+        <item itemvalue="Application.TesteConexaoBanco" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-8336523bb0d9-93b19daf" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e192b59-68cb-41cd-9d09-40c589f0da9b" name="Changes" comment="" />
+      <created>1702500386755</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702500386755</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/generic/ClienteDAO.java</url>
+          <line>166</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/ClienteTest.java</url>
+          <line>138</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

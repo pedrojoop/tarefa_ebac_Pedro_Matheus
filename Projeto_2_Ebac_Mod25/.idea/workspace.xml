@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f3984623-cb26-4855-8422-5bee96005fff" name="Changes" comment="Decima oitava tarefa">
+      <change afterPath="$PROJECT_DIR$/.idea/Projeto_2_Ebac_Mod25.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/java/br/com/pedroL/dao/ClienteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/java/br/com/pedroL/dao/IClienteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/java/br/com/pedroL/dao/IProdutoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/java/br/com/pedroL/dao/IVendaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/java/br/com/pedroL/dao/Persistente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/java/br/com/pedroL/dao/ProdutoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/java/br/com/pedroL/dao/VendaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/java/br/com/pedroL/dao/generic/GenericDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/java/br/com/pedroL/dao/generic/IGenericDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/java/br/com/pedroL/dao/generic/SingletonMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/java/br/com/pedroL/domain/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/java/br/com/pedroL/domain/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/java/br/com/pedroL/domain/ProdutoQuantidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/java/br/com/pedroL/domain/Venda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/java/br/com/pedroL/exceptions/TipoChaveNaoEncontradaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/java/br/com/pedroL/services/ClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/java/br/com/pedroL/services/IClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/java/br/com/pedroL/services/IProdutoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/java/br/com/pedroL/services/ProdutoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/java/br/com/pedroL/services/generic/GenericService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/java/br/com/pedroL/services/generic/IGenericService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto_3_Ebac_Mod29/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto_3_Ebac_Mod29/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto_3_Ebac_Mod29/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2Z9VcCQODtrv0PPKq1xOudJwEek" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/pedro/OneDrive/Documents/DESENVOLVIMENTO/EBAC/tarefas-ebac-Pedro-Matheus/Projeto_2_Ebac_Mod25/src/Main.java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Tests.dao" />
+      <recent name="dao" />
+      <recent name="Services.dao" />
+      <recent name="Services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ClientServiceTest.excludeClient">
+    <configuration name="ClientDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projeto_2_Ebac_Mod25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.ClientDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientDaoTest.ClientSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projeto_2_Ebac_Mod25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.ClientDaoTest" />
+      <option name="METHOD_NAME" value="ClientSearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projeto_2_Ebac_Mod25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.ClientServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientServiceTest.ClientSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projeto_2_Ebac_Mod25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.ClientServiceTest" />
+      <option name="METHOD_NAME" value="ClientSearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientServiceTest.excludeClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projeto_2_Ebac_Mod25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.ClientServiceTest" />
+      <option name="METHOD_NAME" value="excludeClient" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ClientServiceTest.excludeClient" />
+        <item itemvalue="JUnit.ClientServiceTest" />
+        <item itemvalue="JUnit.ClientDaoTest" />
+        <item itemvalue="JUnit.ClientDaoTest.ClientSearch" />
+        <item itemvalue="JUnit.ClientServiceTest.ClientSearch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-8336523bb0d9-93b19daf" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3984623-cb26-4855-8422-5bee96005fff" name="Changes" comment="" />
+      <created>1701834369345</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701834369345</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Decima oitava tarefa">
+      <option name="closed" value="true" />
+      <created>1702066728569</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702066728569</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Decima oitava tarefa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Decima oitava tarefa" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Projeto_2_Ebac_Mod25$ClientServiceTest.ic" NAME="ClientServiceTest Coverage Results" MODIFIED="1701905164262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Tests.*</FILTER>
+    </SUITE>
+  </component>
+</project>
