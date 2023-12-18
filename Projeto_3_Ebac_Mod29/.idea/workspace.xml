@@ -4,44 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e192b59-68cb-41cd-9d09-40c589f0da9b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/.idea/Projeto_2_Ebac_Mod25.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/dao/ClienteDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/dao/IClienteDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/dao/IProdutoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/dao/IVendaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/dao/Persistente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/dao/ProdutoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/dao/VendaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/dao/generic/GenericDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/dao/generic/IGenericDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/dao/generic/SingletonMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/domain/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/domain/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/domain/ProdutoQuantidade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/domain/Venda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/exceptions/TipoChaveNaoEncontradaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/services/ClienteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/services/IClienteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/services/IProdutoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/services/ProdutoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/services/generic/GenericService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projeto_2_Ebac_Mod25/src/Main/java/br/com/pedroL/services/generic/IGenericService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/ClienteDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/IClienteDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/ProdutosDAO/IProdutoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/ProdutosDAO/ProdutoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jbdc/ConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/ClienteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/ProdutoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/TesteConexaoBanco.java" afterDir="false" />
+    <list default="true" id="3e192b59-68cb-41cd-9d09-40c589f0da9b" name="Changes" comment="Vigésima tarefa">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +163,28 @@
       <option name="presentableId" value="Default" />
       <updated>1702500386755</updated>
     </task>
+    <task id="LOCAL-00001" summary="Vigésima tarefa">
+      <option name="closed" value="true" />
+      <created>1702669356310</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702669356310</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Vigésima tarefa">
+      <option name="closed" value="true" />
+      <created>1702669498298</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702669498299</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Vigésima tarefa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vigésima tarefa" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
