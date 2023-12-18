@@ -11,6 +11,7 @@ import main.java.br.com.pedro.services.ProdutoService;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import test.java.br.com.pedro.dao.dao.ProdutoDaoMock;
 
 import java.math.BigDecimal;
 

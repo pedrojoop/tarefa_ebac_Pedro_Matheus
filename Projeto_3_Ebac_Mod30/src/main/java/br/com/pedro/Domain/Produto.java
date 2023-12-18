@@ -27,8 +27,19 @@ public class Produto implements IPersistente {
     @ColunaTabela(dbName = "descricao", setJavaName = "setDescricao")
     private String descricao;
 
+    @ColunaTabela(dbName = "fornecedores", setJavaName = "setFornecedores")
+    private String fornecedores;
+
     @ColunaTabela(dbName = "valor", setJavaName = "setValor")
     private BigDecimal valor;
+
+    public String getFornecedores() {
+        return fornecedores;
+    }
+
+    public void setFornecedores(String fornecedores) {
+        this.fornecedores = fornecedores;
+    }
 
     public String getCodigo() {
         return codigo;
