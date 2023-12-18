@@ -37,6 +37,13 @@ public class Cliente implements IPersistente {
     @ColunaTabela(dbName = "estado", setJavaName = "setEstado")
     private String estado;
 
+    @ColunaTabela(dbName="idade", setJavaName = "setIdade")
+    private int idade;
+
+    public long getIdade() {return idade;}
+
+    public void setIdade(int idade) {this.idade = idade;}
+
     public String getNome() {
         return nome;
     }

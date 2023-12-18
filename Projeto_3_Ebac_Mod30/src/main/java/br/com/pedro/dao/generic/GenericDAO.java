@@ -83,7 +83,7 @@ public abstract class GenericDAO<T extends IPersistente, E extends Serializable>
         try {
             connection = getConnection();
             stm = connection.prepareStatement(getQueryInsercao(), Statement.RETURN_GENERATED_KEYS);
-            setParametrosQueryInsercao(stm, entity);
+            setParametrosQueryInsercao(stm, (T) entity);
             int rowsAffected = stm.executeUpdate();
 
             if(rowsAffected > 0) {
@@ -111,7 +111,7 @@ public abstract class GenericDAO<T extends IPersistente, E extends Serializable>
         PreparedStatement stm = null;
         try {
             stm = connection.prepareStatement(getQueryExclusao());
-            setParametrosQueryExclusao(stm, valor);
+            setParametrosQueryExclusao(stm, (E) valor);
             int rowsAffected = stm.executeUpdate();
 
         } catch (SQLException e) {
@@ -129,7 +129,7 @@ public abstract class GenericDAO<T extends IPersistente, E extends Serializable>
         PreparedStatement stm = null;
         try {
             stm = connection.prepareStatement(getQueryAtualizacao());
-            setParametrosQueryAtualizacao(stm, entity);
+            setParametrosQueryAtualizacao(stm, (T) entity);
             int rowsAffected = stm.executeUpdate();
         } catch (SQLException e) {
             throw new DAOException("ERRO ALTERANDO OBJETO ", e);
@@ -142,10 +142,10 @@ public abstract class GenericDAO<T extends IPersistente, E extends Serializable>
 
     public T consultar(Serializable valor) throws MaisDeUmRegistroException, TableException, DAOException {
         try {
-            validarMaisDeUmRegistro(valor);
+            validarMaisDeUmRegistro((E) valor);
             Connection connection = getConnection();
             PreparedStatement stm = connection.prepareStatement("SELECT * FROM " + getTableName() + " WHERE " + getNomeCampoChave(getTipoClasse()) + " = ?");
-            setParametrosQuerySelect(stm, valor);
+            setParametrosQuerySelect(stm, (E) valor);
             ResultSet rs = stm.executeQuery();
             if (rs.next()) {
                 T entity = getTipoClasse().getConstructor(null).newInstance(null);
