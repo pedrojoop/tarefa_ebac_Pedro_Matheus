@@ -190,11 +190,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/generic/ClienteDAO.java</url>
-          <line>166</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/ClienteTest.java</url>
           <line>138</line>
           <option name="timeStamp" value="3" />
