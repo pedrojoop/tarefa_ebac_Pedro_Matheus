@@ -1,6 +1,6 @@
 # tarefas-ebac-Pedro-Matheus
 
-Este repositório contém as soluções para as tarefas do curso [NOME DO CURSO]. Todas as tarefas são implementadas em Java.
+Este repositório contém as soluções para as tarefas do curso Profissão: Especialista Back-End Java da EBAC. Todas as tarefas são implementadas em Java.
 
 ## Execução dos Programas
 
