@@ -1,17 +1,18 @@
-package main.java.br.com.pedro;
+package main.java.br.com.pedro.Domain;
 
 import main.java.anotacao.ColunaTabela;
 import main.java.anotacao.Tabela;
 import main.java.anotacao.TipoChave;
-import main.java.br.com.pedro.dao.Jpa.Persistente;
+import main.java.br.com.pedro.dao.IPersistente;
 
 import java.math.BigDecimal;
 
 /**
  * @author pmpedrolima@gmail.com
+ *
  */
 @Tabela("TB_PRODUTO")
-public class Produto implements Persistente {
+public class Produto implements IPersistente {
 
     @ColunaTabela(dbName = "id", setJavaName = "setId")
     private Long id;
@@ -26,8 +27,19 @@ public class Produto implements Persistente {
     @ColunaTabela(dbName = "descricao", setJavaName = "setDescricao")
     private String descricao;
 
+    @ColunaTabela(dbName = "fornecedores", setJavaName = "setFornecedores")
+    private String fornecedores;
+
     @ColunaTabela(dbName = "valor", setJavaName = "setValor")
     private BigDecimal valor;
+
+    public String getFornecedores() {
+        return fornecedores;
+    }
+
+    public void setFornecedores(String fornecedores) {
+        this.fornecedores = fornecedores;
+    }
 
     public String getCodigo() {
         return codigo;
@@ -70,4 +82,3 @@ public class Produto implements Persistente {
     }
 
 }
-
