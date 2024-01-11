@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Gerenciamento de Carros</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+
+<h1>Gerenciamento de Carros</h1>
+
+<form th:action="@{/carros/pesquisar}" method="post">
+    <label for="modelo">Modelo:</label>
+    <input type="text" id="modelo" name="modelo" />
+
+    <label for="marca">Marca:</label>
+    <input type="text" id="marca" name="marca" />
+
+    <button type="submit">Pesquisar</button>
+</form>
+
+<!-- Lista de Carros -->
+<h2>Lista de Carros</h2>
+<table>
+    <thead>
+    <tr>
+        <th>Modelo</th>
+        <th>Marca</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="carro : ${carros}">
+        <td th:text="${carro.modelo}"></td>
+        <td th:text="${carro.marca}"></td>
+    </tr>
+    </tbody>
+</table>
+<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
