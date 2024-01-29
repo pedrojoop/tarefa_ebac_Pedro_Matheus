@@ -22,6 +22,7 @@ public class CarroController {
     @GetMapping("/carros")
     public String listarCarros(Model model) {
         List<Carro> carros = carroService.listarCarros();
+        carros.stream();
         model.addAttribute("carros", carros);
         return "listaCarros";
     }
